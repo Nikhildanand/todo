@@ -11,6 +11,8 @@ node_modules
 dist
 dist-ssr
 *.local
+cypress/videos
+stories
 
 # Editor directories and files
 .vscode/*
