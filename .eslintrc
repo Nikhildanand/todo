@@ -2,5 +2,9 @@
   "extends": ["eslint:recommended", "plugin:vue/vue3-recommended"],
   "rules": {
     "vue/component-name-in-template-casing": ["error", "PascalCase"]
+  },
+  "plugins": ["jest"],
+  "env": {
+    "jest/globals": true
   }
 }
