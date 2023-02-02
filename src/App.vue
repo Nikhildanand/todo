@@ -2,7 +2,9 @@
 </script>
 
 <template>
-  <div>To do App</div>
+  <div data-cy="todo">
+    To do App
+  </div>
 </template>
 
 <style scoped>
