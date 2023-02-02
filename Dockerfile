@@ -1,5 +1,5 @@
 # Use an official Node.js runtime as the base image
-FROM node:19
+FROM node:16
 
 # Set the working directory in the container
 WORKDIR /app
@@ -12,9 +12,6 @@ RUN yarn install --frozen-lockfile
 
 # Copy the rest of the application files to the container
 COPY . .
-
-# Set environment variables
-ENV PORT=5173
 
 # Expose the port for the app to listen on
 EXPOSE 5173
