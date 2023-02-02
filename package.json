@@ -29,7 +29,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue src",
-    "lint:fix": "eslint --ext .js,.vue src --fix"
+    "lint:fix": "eslint --ext .js,.vue src --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "vue": "^3.2.45"
@@ -38,6 +39,7 @@
     "@vitejs/plugin-vue": "^4.0.0",
     "eslint": "^8.33.0",
     "eslint-plugin-vue": "^9.9.0",
-    "vite": "^4.0.0"
+    "vite": "^4.0.0",
+    "husky": "^8.0.0"
   }
 }
