@@ -3,11 +3,13 @@
   "rules": {
     "vue/component-name-in-template-casing": ["error", "PascalCase"]
   },
-  "plugins": ["jest", "cypress"],
+  "plugins": ["jest"],
   "env": {
     "browser": true,
     "node": true,
-    "jest/globals": true,
-    "cypress/globals": true
+    "jest/globals": true
+  },
+  "globals": {
+    "cy": true
   }
 }
