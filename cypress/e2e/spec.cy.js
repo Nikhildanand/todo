@@ -1,6 +1,6 @@
 describe("Todo Component", () => {
   beforeEach(() => {
-    cy.visit("http://localhost:5173");
+    cy.visit("https://nikhildanand.github.io/todo/");
   });
 
   it("displays todo list correctly", () => {

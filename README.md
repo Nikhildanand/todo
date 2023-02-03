@@ -25,15 +25,19 @@ A simple and elegant todo app built with Vue.js, using the Composition API and S
 
 - [Vue.js](https://vuejs.org) - The progressive JavaScript framework
 - [Sass](https://sass-lang.com) - The CSS preprocessor for styling
-- [Axios](https://github.com/axios/axios) - The HTTP client for making API calls
 - [Jest](https://jestjs.io) - The JavaScript testing framework for unit tests
 - [Cypress](https://www.cypress.io) - The end-to-end testing framework
 - [Eslint](https://eslint.org) - The JavaScript linter for enforcing coding standards
-- [Prettier](https://prettier.io) - The code formatter for consistent code style
 
 ## Contributing
 
 Contributions are welcome! If you have any suggestions or bug reports, please open an issue or submit a pull request.
+
+## CI/CD
+
+The app uses github actions for Continuous Integration.
+You can see the live app in <https://nikhildanand.github.io/todo/>
+The application is deployed through github pages.
 
 ## License
 
