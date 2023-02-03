@@ -25,7 +25,7 @@ A simple and elegant todo app built with Vue.js, using the Composition API and S
 
 - [Vue.js](https://vuejs.org) - The progressive JavaScript framework
 - [Sass](https://sass-lang.com) - The CSS preprocessor for styling
-- [Jest](https://jestjs.io) - The JavaScript testing framework for unit tests
+- [Vitest](https://vitest.dev/) - The JavaScript testing framework for unit tests
 - [Cypress](https://www.cypress.io) - The end-to-end testing framework
 - [Eslint](https://eslint.org) - The JavaScript linter for enforcing coding standards
 
@@ -38,6 +38,11 @@ Contributions are welcome! If you have any suggestions or bug reports, please op
 The app uses github actions for Continuous Integration.
 You can see the live app in <https://nikhildanand.github.io/todo/>
 The application is deployed through github pages.
+
+## Docker
+
+Create Docker image using `docker build -t todo .`
+Run docker container using `docker run -p 8000:5173 todo` to run on PORT 8000 of localhost
 
 ## License
 
